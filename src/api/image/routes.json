@@ -1,0 +1,13 @@
+{
+    "routes": [
+      {
+        "method": "GET",
+        "path": "/images",
+        "handler": "image.findAll",
+        "config": {
+          "policies": []
+        }
+      }
+    ]
+  }
+  
